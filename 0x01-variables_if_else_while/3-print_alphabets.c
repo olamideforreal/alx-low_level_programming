@@ -8,7 +8,6 @@ int main(void)
 {
 	int x, y;
 
-	<<<<<<< HEAD
 		for (m = 97; m <= 122; m++)
 			putchar(m);
 	for (n = 65; n <= 90; n++)
@@ -22,7 +21,6 @@ int main(void)
 	{
 		putchar(y);
 	}
-	>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 		putchar('\n');
 	return (0);
 }
