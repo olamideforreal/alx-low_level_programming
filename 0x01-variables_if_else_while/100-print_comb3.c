@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (y = 48; y <= 57; y++)
 		{
-			if ( x === y || y <= x)
+			if ( x == y || y <= x)
 			{
 			}
 			else
