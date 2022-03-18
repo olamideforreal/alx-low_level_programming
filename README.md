@@ -1,1 +1,1 @@
-C low level programming language
+More functions in C
