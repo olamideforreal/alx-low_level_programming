@@ -1,1 +1,1 @@
-malloc in C programming languaage
+malloc in C
