@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * get_bit - returns the value of abit given
- * index
- * @n: unsigned long int input
+ * get_bit - returns the value of a bit at a given
+ * index.
+ * @n: unsigned long int input.
+ * @index: index of the bit.
  *
- * Return: value of the bit
+ * Return: value of the bit.
  */
-int gert_bit(unsigned long int n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int i;
 
@@ -16,11 +17,11 @@ int gert_bit(unsigned long int n, unsigned int index)
 
 	for (i = 0; i <= 63; n >>= 1, i++)
 	{
-		if (index == 1)
+		if (index == i)
 		{
 			return (n & 1);
 		}
 	}
 
-		return (-1);
+	return (-1);
 }
